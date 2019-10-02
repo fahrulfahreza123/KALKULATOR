@@ -2,3 +2,31 @@
     margin: 0;
     padding: 0;
 }
+.button{
+    width:50;
+    height:50;
+    font-size: 25;
+    margin: 2;
+    cursor.pointer;
+    background: #007d8b;
+    border:none;
+    color:white;
+}
+.textview{
+    width: 217;
+    margin: 5;
+    font-size: 25;
+    padding: 5;
+    border: none;
+    color:#607d8b;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+.bg{
+    background: linear-gradient(to right,pink,white,yellow);
+    height: 100%;
+}
